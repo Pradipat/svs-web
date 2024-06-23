@@ -9,19 +9,19 @@ import LocationIcon from '@/svg/location-icon';
 import PhoneIcon from '@/svg/phone-icon';
 import RightArrow from '@/svg/right-arrow';
 
-import footer_logo from "../../../public/assets/img/logo/logo-white.png";
+import footer_logo from "../../../public/assets/img/logo/logosvs-shadow.png";
 import Image from 'next/image';
 
 
 // footer_content 
 const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
-    description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
-    phone: "+806(000)8899",
-    contact_mail: "contact@info.com",
-    location: "1234 North Avenue Luke Lane, South Bend,",
+    description: <>Learn and Develop youself to become  <br /> a world class developer</>,
+    phone: "+66 2 591 5565",
+    contact_mail: "info@siamvayupak.com",
+    location: "SOFTWARE PARK THAILAND",
 
-    copy_right: <>Full Copyright & Design By <Link href="#">@Theme pure</Link> – {new Date().getFullYear()}</>,
+    copy_right: <>Copyright © {new Date().getFullYear()} <Link href="#">SIAM VAYUPAK SOFTWARE</Link> </>,
 
     footer_lisks : [
         {
@@ -185,15 +185,15 @@ const Footer = () => {
                      </div>
                   </div>
                </div>
-               <div className="tp-copyright__area pt-20 pb-20">
+               <div className="tp-copyright__area pt-20 pb-20 ">
                   <div className="container">
-                     <div className="row align-items-center">
+                     <div className="row align-items-center justify-content-center text-center">
                         <div className="col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                            <div className="tp-copyright__text">
                               <span>{copy_right} </span>
                            </div>
                         </div>
-                        <div className="col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                        {/* <div className="col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                            <div className="tp-copyright__lang-box  d-flex align-items-center justify-content-md-end justify-content-start">
                               <div className="tp-copyright__lang">
                                  <ul>
@@ -219,7 +219,7 @@ const Footer = () => {
                                  </ul>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>

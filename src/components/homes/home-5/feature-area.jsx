@@ -8,7 +8,7 @@ import React from 'react';
 const feature_content = {
     title: <>About Customer <span>Stories</span></>,
     des: <>Take your business to the next level with <span>09</span> accessible premium  extensions <br /> & different features</>,
-    integraton_title: "What you will get",
+    integraton_title: "How can we help your business grow?",
     integraton_des: <>Take your business to the next level with  <span> 09</span> accessible premium  extensions <br /> & different features</>,
 }
 const {title, des, integraton_title, integraton_des}  = feature_content
@@ -29,7 +29,7 @@ const FeatureArea = ({style_integraton}) => {
                                         {integraton_title}
                                     </span>
                                 </h3>
-                                    <p>{integraton_des}</p>
+                                    {/* <p>{integraton_des}</p> */}
                                 </>
                                 :
                                 <>

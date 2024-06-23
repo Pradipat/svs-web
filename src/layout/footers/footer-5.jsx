@@ -10,13 +10,13 @@ import React from 'react';
 
 import shape_img_1 from "../../../public/assets/img/footer/footer-inner-1.png";
 import shape_img_2 from "../../../public/assets/img/footer/footer-inner-2.png";
-import footer_logo from "../../../public/assets/img/logo/logo-black.png";
+import footer_logo from "../../../public/assets/img/logo/logo-svs.png";
 
 
 const footer_content = {
-    info:"Build a modern and creative website with crealand",
-    phone: "+806 (000) 88 99",
-    email: "contact@info.com",
+    info:"Learn and Develop youself to become a world class developer",
+    phone: "+66 2 591 5565",
+    email: "info@siamvayupak.com",
     
     footer_lisks : [
         {

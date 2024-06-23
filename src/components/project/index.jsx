@@ -4,13 +4,14 @@ import HeaderSix from "@/layout/headers/header-6";
 import React from "react";
 import CtaArea from "../contact/cta-area";
 import Portfolio from "./portfolio";
+import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
 
 const Project = () => {
   return (
     <>
-      <HeaderSix style_2={true} />
+      <HeaderSix  />
       <main>
-        <BreadcrumbSeven />
+        <BreadcrumbTwo title={"Our Projects"} innertitle={"Our Project"}/>
         <Portfolio />
         <CtaArea />
       </main>

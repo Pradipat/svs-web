@@ -14,6 +14,7 @@ import Footer from "@/layout/footers/footer";
 import PlatformArea from "@/common/platform-area";
 
 
+
 const HomeOne = () => {
 	return (
 		<>
@@ -24,12 +25,13 @@ const HomeOne = () => {
 						<HeroSlider />
 						<PlatformArea style_carrer={true} />
 						<FeatureArea />
-						<AboutArea />
+						
+						{/* <AboutArea /> */}
 						<ServicesArea />
 						<ProjectArea />
 						<TestimonialArea />
-						<RankArea />
-						<PriceArea />
+						{/* <RankArea /> */}
+						{/* <PriceArea /> */}
 					</main>
 					<Footer />
 					<ScrollToTop />
