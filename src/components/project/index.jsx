@@ -13,7 +13,7 @@ const Project = () => {
     <>
       <HeaderSix  />
       <main>
-        <BreadcrumbTwo title={"Our Projects"} innertitle={"Our Project"}/>
+        <BreadcrumbSeven />
         <Portfolio />
         {/* <CtaArea /> */}
       </main>
