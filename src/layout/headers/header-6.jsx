@@ -51,7 +51,7 @@ const HeaderSix = ({ style_2 = false }) => {
                            </div> */}
                            <div className="header-bottom__btn d-flex align-items-center">
                               <Link className={`${style_2 ? 'tp-btn-inner alt-color-orange' : 'tp-btn-white alt-color-black'} tp-btn-hover d-none d-md-inline-block`} href="/service-details">
-                                 <span className="white-text">Get Started</span>
+                                 <span className="white-text">Get A Demo</span>
                                  <b></b>
                               </Link>
                               <a className="header-bottom__bar tp-menu-bar d-lg-none" onClick={() => setSidebarOpen(true)}>

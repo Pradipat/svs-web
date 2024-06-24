@@ -3,10 +3,10 @@ import React,{useState} from 'react';
 
 const company_content ={
     sub_title:  "ABOUT THE COMPANY",
-    title: <>Softuch is Made <br />For the Creator.</>,
-    info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum arcu sollicitudin viverra sit elit leo in. Vitae eu tellus mattis quis. Eu, tempus donec nam mauris egestas. Id aliquet ultricies ligula tellus arcu dolor. Massa arcu pulvinar in mattis</>,
-    info_2: <>Feugiat purus congue risus, blandit a sed. In aenean quam aenean purus dictum pellentesque consequat.!</>,
-    info_3: <>Our clean and simple APIs and transparent SaaS model will give you complete peace of mind.</>,
+    title: <>Siamvayupak <br />Software .</>,
+    info_1: <>We are a leader in software development and services, dedicated to delivering high-quality and efficient innovations that meet all our customers' technological needs.</>,
+    info_2: <>Our team specializes in developing cutting-edge software and operates efficiently to meet the needs of all our customers.</>,
+    info_3: <>Learn and Develop youself to become a world class developer.</>,
 }
 const {sub_title, title, info_1, info_2, info_3}  = company_content
 
