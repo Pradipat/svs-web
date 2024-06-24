@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 // payment img import 
-import logo from "../../../../public/assets/img/payment-logo/logo-main.png";
+import logo from "../../../../public/assets/img/payment-logo/icon.png";
 import payment_img_1 from "../../../../public/assets/img/payment-logo/logo-3.png";
 import payment_img_2 from "../../../../public/assets/img/payment-logo/logo-1.png";
 import payment_img_3 from "../../../../public/assets/img/payment-logo/logo-2.png";
@@ -19,6 +19,7 @@ import payment_img_13 from "../../../../public/assets/img/payment-logo/logo-11.p
 import payment_img_14 from "../../../../public/assets/img/payment-logo/logo-10.png";
 import payment_img_15 from "../../../../public/assets/img/payment-logo/logo-9.png";
 import payment_img_16 from "../../../../public/assets/img/payment-logo/logo-8.png";
+
 
 // payment_method data
 const payment_method = [
@@ -122,8 +123,8 @@ const payment_method = [
 
 
 const payment_method_info = { 
-    title: <>All major <br /> payment methods</>,
-    desctiption: <>We've got all your payments covered</>,
+    title: <>All major <br /> service methods</>,
+    desctiption: <>You won't be disappointed using our service</>,
 
 }
 const {title, desctiption}  = payment_method_info

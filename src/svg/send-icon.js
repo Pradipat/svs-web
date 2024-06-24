@@ -20,6 +20,7 @@ const SendIcon = () => {
             patternContentUnits="objectBoundingBox"
             width="1"
             height="1"
+           
           >
             <use
               xlinkHref="#image0_2106_35"

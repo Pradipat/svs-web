@@ -203,6 +203,7 @@ const  service_data = [
         img: <ServiceIconOne />,
         title: "Strategy & Consulting",
         description: <>Business Process <br /> Development.</>,
+        des: <>Optimizing and streamlining workflows to enhance efficiency, reduce costs, and drive business growth.</>,
         delay: ".9s",
     },
     {
@@ -211,6 +212,7 @@ const  service_data = [
         img: <ServiceIconTwo />,
         title: "Strategy & Consulting",
         description: <>Data Management & <br /> Data Storage Strategy.</>,
+        des: <>Implementing robust solutions to securely organize, store, and access data, ensuring scalability and efficiency for your business needs.</>,
         delay: ".9s",
     },
     {
@@ -219,6 +221,7 @@ const  service_data = [
         img: <ServiceIconThree />,
         title: "Strategy & Consulting",
         description: <>System Architecture.</>,
+        des: <>Designing scalable and efficient frameworks to support robust, high-performance systems that meet your business objectives.</>,
         delay: ".9s",
     },
     {
@@ -227,6 +230,7 @@ const  service_data = [
         img: <ServiceIconFoure />,
         title: "Experience & Solution Design",
         description: <>User Experience & <br />User Interface.</>,
+        des: <>Crafting intuitive and engaging designs that enhance usability and delight users, ensuring a seamless interaction with your product.</>,
         delay: ".9s",
     },
     
@@ -236,6 +240,7 @@ const  service_data = [
         img: <ServiceIconFive />,
         title: "Experience & Solution Design",
         description: <>Architecture Design.</>,
+        des: <>Creating innovative and scalable designs that ensure structural integrity, functionality, and aesthetic appeal in your projects.</>,
         delay: ".9s",
     },
     
@@ -245,6 +250,7 @@ const  service_data = [
         img: <ServiceIconsix />,
         title: "Software Development",
         description: <>System Development.</>,
+        des: <>Building reliable and efficient systems tailored to your business needs, leveraging the latest technologies to ensure optimal performance.</>,
         delay: ".9s",
     },
     
@@ -254,6 +260,7 @@ const  service_data = [
         img: <ServiceIconSeven />,
         title: "Software Development",
         description: <>Software Customization.</>,
+        des: <>Tailoring software solutions to fit your unique business requirements, enhancing functionality, and improving overall efficiency.</>,
         delay: ".9s",
     },
     {
@@ -262,6 +269,7 @@ const  service_data = [
         img: <ServiceIconSeven />,
         title: "Software Development",
         description: <>Security.</>,
+        des: <>Implementing robust measures to protect data, systems, and operations from threats, ensuring confidentiality, integrity, and availability.</>,
         delay: ".9s",
     },
     {
@@ -270,6 +278,7 @@ const  service_data = [
         img: <ServiceIconSeven />,
         title: "Maintenance & Support",
         description: <>Support Service.</>,
+        des: <>Providing responsive assistance and solutions to ensure smooth operation and user satisfaction, resolving issues promptly and effectively.</>,
         delay: ".9s",
     },
     {
@@ -278,6 +287,7 @@ const  service_data = [
         img: <ServiceIconSeven />,
         title: "Maintenance & Support",
         description: <>System Migration.</>,
+        des: <>Efficiently transferring data and applications to new infrastructure or platforms, ensuring minimal disruption and maximizing operational continuity.</>,
         delay: ".9s",
     },
 

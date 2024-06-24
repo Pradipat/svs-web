@@ -10,6 +10,7 @@ import CtaArea from "../contact/cta-area";
 import FaqArea from "../homes/home-2/faq-area";
 import ServiceArea from "./service-area";
 import Footer from "@/layout/footers/footer";
+import PaymentMethodArea from "../homes/home-2/payment-method-area";
 
 const Service = () => {
   return (
@@ -21,10 +22,11 @@ const Service = () => {
             <Breadcrumb title_top={"Our Top"} title_bottom={"Service"} />
             <HeroBanner title="Our Top" subtitle="Service" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
             <ServiceArea /> 
-            <CardArea style_service={true} />
-            <SalesArea style_service={true} />
+            {/* <CardArea style_service={true} /> */}
+            {/* <SalesArea style_service={true} /> */}
             {/* <TestimonialArea /> */}
-            <FaqArea style_service={true} />
+            {/* <FaqArea style_service={true} /> */}
+            <PaymentMethodArea/>
             {/* <CtaArea /> */}
           </main>
           <Footer />

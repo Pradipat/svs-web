@@ -7,6 +7,7 @@ import ContactInner from "./contact-inner";
 import CtaArea from "./cta-area";
 import HeroBanner from "../../common/hero-banner";
 import OfficeLocation from "./office-location";
+import Footer from "@/layout/footers/footer";
 
 const Contact = () => {
   return (
@@ -17,12 +18,14 @@ const Contact = () => {
           <main>
             <Breadcrumb title_top="Get In" title_bottom="Get In" />
             <HeroBanner bg_img="/assets/img/contact/contact-banner.jpg" />
-            <OfficeLocation />
-            <ContactFormArea />
+            {/* <OfficeLocation /> */}
             <ContactInner />
-            <CtaArea />
+            <ContactFormArea />
+           
+            {/* <CtaArea /> */}
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          {/* <FooterFive style_contact={true} style_team={true} /> */}
+          <Footer />
         </div>
       </div>
     </>

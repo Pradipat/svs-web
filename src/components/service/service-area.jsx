@@ -49,9 +49,9 @@ const ServiceArea = () => {
                               <h4 className="tp-service-3-title-sm">
                                  <Link href="/service-details">{service_info}</Link></h4>
                            </div>
-                           <div className="tp-service-3-btn">
+                           {/* <div className="tp-service-3-btn">
                               <Link className="tp-btn-white-solid" href="/service-details">Learn More</Link>
-                           </div>
+                           </div> */}
                            <div className="tp-service-3-shape">
                               <Image src={service_icon_2} alt="theme-pure" />
                            </div>
@@ -67,9 +67,10 @@ const ServiceArea = () => {
                            <div className="tp-service-sm-content">
                               <span>{item.title}</span>
                               <h3 className="tp-service-sm-title">{item.description}</h3>
-                              <div className="tp-service-sm-link">
+                              <p>{item.des}</p>
+                              {/* <div className="tp-service-sm-link">
                                  <Link href="/service-details">Learn More <i className="far fa-arrow-right"></i></Link>
-                              </div>
+                              </div> */}
                            </div>
                         </div>
                      </div>

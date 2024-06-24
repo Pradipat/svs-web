@@ -16,20 +16,20 @@ const inner_content = {
     {
       id: 1,
       icon: icon_1,
-      title: "contact@softuch.com",
-      link: "mailto:contact@softuch.com",
+      title: "info@siamvayupak.com",
+      link: "mailto:info@siamvayupak.com",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+66-2-591-5565",
+      link: "tel:+66-2-591-5565",
     },
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title: "Software Park Thailand",
+      link: "https://maps.app.goo.gl/gf2L8gAxG7DVzo1W6",
     },
   ],
 };
@@ -38,7 +38,7 @@ const { title, description, contact_data } = inner_content;
 const ContactInner = () => {
   return (
     <>
-      <div className="contact-inner-area pb-130">
+      <div className="contact-inner-area pb-80">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
