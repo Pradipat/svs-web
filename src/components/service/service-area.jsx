@@ -8,12 +8,12 @@ import service_icon_2 from "../../../public/assets/img/service/service-shape-3-1
 
 
 const service_content = {
-    title: <>Accounting Software <br /> That Handles it All.</>,
+    title: <>All-in-one  <br /> service solution.</>,
     btn_text: <>See All Features</>,
  
     bg_img: "/assets/img/service/service-3-bg.png",
-    service_title: "CRM Management",
-    service_info: <>Generate, Manage, and Convert leads <br /> into Customers. Automatically</>,
+    service_title: "Total Software Solution",
+    service_info: <>Consuluting, Solution Design<br /> Software Development, Customer Care<br /></>,
  }
  const {title, btn_text, bg_img, service_title, service_info}  = service_content
 
@@ -21,19 +21,19 @@ const service_content = {
 const ServiceArea = () => {
     return (
         <>
-            <div className="tp-service-area pb-120 z-index">
+            <div className="tp-service-area pb-60 z-index">
                <div className="container">
                   <div className="row">
                      <div className="col-xl-12">
                         <div className="tp-service-section-wrapper mb-60 d-flex justify-content-between align-items-end">
                            <h3 className="tp-section-title tp-title-anim">{title}</h3>
-                              <Link className="tp-btn-inner tp-btn-hover alt-color-black wow tpfadeRight" 
+                              {/* <Link className="tp-btn-inner tp-btn-hover alt-color-black wow tpfadeRight" 
                                  data-wow-duration=".9s" 
                                  data-wow-delay=".3s" 
                                  href="/service-details">
                                  <span>{btn_text}</span>
                                  <b></b>
-                              </Link>
+                              </Link> */}
                         </div>
                      </div>
                   </div>
@@ -58,7 +58,7 @@ const ServiceArea = () => {
                         </div>
                      </div>
 
-                     {service_data.slice(17, 24).map((item, i)  => 
+                     {service_data.slice(17, 27).map((item, i)  => 
                         <div key={i} className="col-xl-4 col-lg-6 col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-service-sm-item mb-30 d-flex flex-column justify-content-between">
                            <div className="tp-service-sm-icon">
@@ -66,7 +66,7 @@ const ServiceArea = () => {
                            </div>
                            <div className="tp-service-sm-content">
                               <span>{item.title}</span>
-                              <h3 className="tp-service-sm-title"><Link href="/service-details">{item.description}</Link></h3>
+                              <h3 className="tp-service-sm-title">{item.description}</h3>
                               <div className="tp-service-sm-link">
                                  <Link href="/service-details">Learn More <i className="far fa-arrow-right"></i></Link>
                               </div>

@@ -9,6 +9,7 @@ import TestimonialArea from "../../common/testimonial-area";
 import CtaArea from "../contact/cta-area";
 import FaqArea from "../homes/home-2/faq-area";
 import ServiceArea from "./service-area";
+import Footer from "@/layout/footers/footer";
 
 const Service = () => {
   return (
@@ -22,11 +23,12 @@ const Service = () => {
             <ServiceArea /> 
             <CardArea style_service={true} />
             <SalesArea style_service={true} />
-            <TestimonialArea />
+            {/* <TestimonialArea /> */}
             <FaqArea style_service={true} />
-            <CtaArea />
+            {/* <CtaArea /> */}
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <Footer />
+          {/* <FooterFive style_contact={true} style_team={true} /> */}
         </div>
       </div>
     </>

@@ -8,12 +8,12 @@ import React, { useRef } from 'react';
 import img from "../../../../public/assets/img/service/sv-dashbord.png" 
 
 const service_content = {
-    title: "Explore Our Data Services",
-    sub_title: <>More than 15,000 companies trust and choose Itech</>,
+    title: "What sets Siamvayuapak apart",
+    sub_title: <>Innovative Solutions, Unmatched Excellence</>,
 
     bg_img: "/assets/img/service/sv-bg.jpg",
     title_2: <>Data Analysis <br /> Tools & Methods</>,
-    des: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+    des: <>To meet the needs of all our customers.</>,
     btn_text: "Work with Us",
 
     
@@ -50,11 +50,11 @@ const ServicesArea = () => {
                                     <h3 className="tp-service__title-sm tp-yellow-color"><Link href="/service-details">{item.title}</Link></h3>
                                     <p>{item.description}</p>
                                 </div>
-                                <div className="tp-service__link">
+                                {/* <div className="tp-service__link">
                                     <Link href="/service-details">
                                         <RightArrow /> 
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     )}

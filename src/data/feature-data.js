@@ -9,36 +9,33 @@ const feature_data = [
         id: 1, 
         color: "1",
         img: feature_img_1,
-        title: <>Hubspot <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>Scalable <br /> Cloud Solutions</>,
+        description: <>Implement cloud infrastructure that grows with your business, 
+        ensuring flexibility and efficiency.</>,
 
     },
     {
         id: 2, 
         color: "2",
         img: feature_img_2,
-        title: <>Mailchimp <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>Cybersecurity <br /> Enhancements</>,
+        description: <>Secure your data with advanced measures and proactive threat management.</>,
 
     },
     {
         id: 3, 
         color: "3",
         img: feature_img_3,
-        title: <>Salesforce <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>Custom Software Development</>,
+        description: <>Develop custom applications to meet your business needs and enhance functionality and user experience.</>,
 
     },
     {
         id: 4, 
         color: "4",
         img: feature_img_4,
-        title: <>Zendesk <br /> Contacts Sync</>,
-        description: <>Transfer contacts information <br />
-        between MailChimp</>,
+        title: <>Data Analytics <br/> & Insights</>,
+        description: <>Utilize powerful data analytics tools to gain actionable insights and drive informed decision-making.</>,
 
     },
 ]

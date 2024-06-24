@@ -12,7 +12,7 @@ import ServicesArea from "./services-area";
 import TestimonialArea from "./testimonial-area";
 import Footer from "@/layout/footers/footer";
 import PlatformArea from "@/common/platform-area";
-
+import BlogArea from "./blog-area";
 
 
 const HomeOne = () => {
@@ -24,12 +24,14 @@ const HomeOne = () => {
 					<main className="fix">
 						<HeroSlider />
 						<PlatformArea style_carrer={true} />
-						<FeatureArea />
+						
 						
 						{/* <AboutArea /> */}
 						<ServicesArea />
 						<ProjectArea />
-						<TestimonialArea />
+						<FeatureArea />
+						{/* <BlogArea />	 */}
+						{/* <TestimonialArea /> */}
 						{/* <RankArea /> */}
 						{/* <PriceArea /> */}
 					</main>

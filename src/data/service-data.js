@@ -41,7 +41,7 @@ const  service_data = [
         icon: img_1,
         img: img_1,
         title: "AI Data Analysis",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        description: <>Transforming Complex Data into Actionable Business Insights</>,
         delay: ".4s",
     },
     {
@@ -49,7 +49,7 @@ const  service_data = [
         icon: img_2,
         img: img_2,
         title: "Machine Learning",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        description: <>Empowering Smarter Decision-Making with Predictive Models</>,
         delay: ".6s",
     },
     {
@@ -57,7 +57,7 @@ const  service_data = [
         icon: img_3,
         img: img_3,
         title: "Data Visualization",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        description: <>Bringing Data to Life through Intuitive Visualizations</>,
         delay: ".7s",
     },
     {
@@ -65,7 +65,7 @@ const  service_data = [
         icon: img_4,
         img: img_4,
         title: "Business Intelligence",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        description: <>Driving Strategic Decisions with Deep Analytics</>,
         delay: ".8s",
     },
     {
@@ -73,9 +73,10 @@ const  service_data = [
         icon: img_5,
         img: img_5,
         title: "Artificial Intelligence",
-        description: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
+        description: <>Innovating with Tailored Cutting-Edge AI Solutions</>,
         delay: ".9s",
     },
+
 
     // for home 03
     {
@@ -200,32 +201,32 @@ const  service_data = [
         id: 18,
         icon: <ServiceIconOne />,
         img: <ServiceIconOne />,
-        title: "Project management jamil",
-        description: <>Automate Workflows <br /> and Monitor your Sales.</>,
+        title: "Strategy & Consulting",
+        description: <>Business Process <br /> Development.</>,
         delay: ".9s",
     },
     {
         id: 19,
         icon: <ServiceIconTwo />,
         img: <ServiceIconTwo />,
-        title: "Sales analytics",
-        description: <>Track your Marketing to see the best Results.</>,
+        title: "Strategy & Consulting",
+        description: <>Data Management & <br /> Data Storage Strategy.</>,
         delay: ".9s",
     },
     {
         id: 20,
         icon: <ServiceIconThree />,
         img: <ServiceIconThree />,
-        title: "Easy Invoicing",
-        description: <>Automate recurring invoices and save time.</>,
+        title: "Strategy & Consulting",
+        description: <>System Architecture.</>,
         delay: ".9s",
     },
     {
         id: 21,
         icon: <ServiceIconFoure/>,
         img: <ServiceIconFoure />,
-        title: "Complete Visibility",
-        description: <>Get real-time visibility into every expense.</>,
+        title: "Experience & Solution Design",
+        description: <>User Experience & <br />User Interface.</>,
         delay: ".9s",
     },
     
@@ -233,8 +234,8 @@ const  service_data = [
         id: 22,
         icon: <ServiceIconFive/>,
         img: <ServiceIconFive />,
-        title: "FIELDS OPTION",
-        description: <>Quick & Easy Repeater Fields Option</>,
+        title: "Experience & Solution Design",
+        description: <>Architecture Design.</>,
         delay: ".9s",
     },
     
@@ -242,8 +243,8 @@ const  service_data = [
         id: 23,
         icon: <ServiceIconsix/>,
         img: <ServiceIconsix />,
-        title: "Safe Online Services",
-        description: <>Online services to view company level.</>,
+        title: "Software Development",
+        description: <>System Development.</>,
         delay: ".9s",
     },
     
@@ -251,10 +252,35 @@ const  service_data = [
         id: 24,
         icon: <ServiceIconSeven/>,
         img: <ServiceIconSeven />,
-        title: "Online marketing",
-        description: <>Get real-time visibility into every expense.</>,
+        title: "Software Development",
+        description: <>Software Customization.</>,
         delay: ".9s",
     },
+    {
+        id: 25,
+        icon: <ServiceIconSeven/>,
+        img: <ServiceIconSeven />,
+        title: "Software Development",
+        description: <>Security.</>,
+        delay: ".9s",
+    },
+    {
+        id: 26,
+        icon: <ServiceIconSeven/>,
+        img: <ServiceIconSeven />,
+        title: "Maintenance & Support",
+        description: <>Support Service.</>,
+        delay: ".9s",
+    },
+    {
+        id: 27,
+        icon: <ServiceIconSeven/>,
+        img: <ServiceIconSeven />,
+        title: "Maintenance & Support",
+        description: <>System Migration.</>,
+        delay: ".9s",
+    },
+
 
 
 ]

@@ -5,6 +5,8 @@ import React from "react";
 import CtaArea from "../contact/cta-area";
 import Portfolio from "./portfolio";
 import BreadcrumbTwo from "@/common/breadcrumbs/breadcrumb-2";
+import Footer from "@/layout/footers/footer";
+
 
 const Project = () => {
   return (
@@ -13,9 +15,10 @@ const Project = () => {
       <main>
         <BreadcrumbTwo title={"Our Projects"} innertitle={"Our Project"}/>
         <Portfolio />
-        <CtaArea />
+        {/* <CtaArea /> */}
       </main>
-      <FooterFive style_contact={true}  style_team={true} />
+      <Footer/>
+      {/* <FooterFive style_contact={true}  style_team={true} /> */}
     </>
   );
 };

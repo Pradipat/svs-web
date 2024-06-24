@@ -33,9 +33,9 @@ const footer_content  = {
             links: [
                 {name: "Business", link: "#"},
                 {name: "Technology", link: "#"},
-                {name: "Online Marketing", link: "#"},
-                {name: "Advertising Strategy", link: "#"},
-                {name: "Strategy", link: "#"},
+               //  {name: "Online Marketing", link: "#"},
+               //  {name: "Advertising Strategy", link: "#"},
+               //  {name: "Strategy", link: "#"},
                 {name: "Development", link: "#"},
             ]
         },
@@ -48,8 +48,8 @@ const footer_content  = {
             links: [
                 {name: "About", link: "/about"},
                 {name: "Services", link: "/service"},
-                {name: "How It Works", link: "#"},
-                {name: "Pricing Plan", link: "/price"},
+               //  {name: "How It Works", link: "#"},
+               //  {name: "Pricing Plan", link: "/price"},
                 {name: "Blog", link: "/blog"},
                 {name: "Contact", link: "/contact"},
             ]

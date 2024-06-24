@@ -17,7 +17,7 @@ const {title, des, integraton_title, integraton_des}  = feature_content
 const FeatureArea = ({style_integraton}) => {
     return (
         <>
-            <div className={`tp-feature-area ${style_integraton ? "pt-100 pb-30" : "grey-bg-3 pt-120 pb-110"}`}>
+            <div className={`tp-feature-area ${style_integraton ? "pt-100 pb-30" : "grey-bg-3 pt-80 pb-110"}`}>
                   <div className="container">
                      <div className="row">
                         <div className="col-12">
@@ -29,12 +29,12 @@ const FeatureArea = ({style_integraton}) => {
                                         {integraton_title}
                                     </span>
                                 </h3>
-                                    {/* <p>{integraton_des}</p> */}
+                                    <p>{integraton_des}</p>
                                 </>
                                 :
                                 <>
                                 <h3 className="tp-section-title-5 text-black">{title}</h3>
-                                <p>{des}</p>                                
+                                {/* <p>{des}</p>                                 */}
                                 </>
                             }
                            </div>
@@ -53,9 +53,9 @@ const FeatureArea = ({style_integraton}) => {
                                             <h4 className="tp-feature-five-title-sm">{item.title}</h4>
                                             <p>{item.description}</p>
                                         </div>
-                                        <div className="tp-feature-five-btn">
+                                        {/* <div className="tp-feature-five-btn">
                                             <Link className="tp-btn-purple" href="/service-details">Learn More</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
