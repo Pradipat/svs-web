@@ -10,7 +10,7 @@ import Image from 'next/image';
 const contact_content  = {
     sub_title: "CONTACT US",
     tilte: <>We'd love to <br /> hear From  {" "}<span> <SendIcon /> </span> {" "}you.</>,
-    info: <>While we're good with smoke signals, there <br /> are easier ways to get in touch.</> ,
+    info: <>Have questions or need support? <br/>Reach out to us! Our team is here to help. <br/>Contact us via email, phone, or the form below. <br/>We look forward to assisting you!</> ,
      
 }
 const {sub_title, tilte, info}  =  contact_content
@@ -32,9 +32,9 @@ const ContactFormArea = () => {
                            <div className="contact-form-social-box p-relative">
                               <div className="contact-form-social-item">
                                  <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                 <Link href="#"><i className="fab fa-twitter"></i></Link>
+                                 {/* <Link href="#"><i className="fab fa-twitter"></i></Link>
                                  <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                 <Link href="#"><i className="fab fa-instagram"></i></Link>
+                                 <Link href="#"><i className="fab fa-instagram"></i></Link> */}
                               </div>
                               <div className="contact-form-section-img">
                                  <Image src={img} alt="theme-pure" />

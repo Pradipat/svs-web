@@ -8,7 +8,7 @@ import plan_img_4 from "../../../../public/assets/img/plan/plan-1-4.png"
 import plan_img_5 from "../../../../public/assets/img/plan/plan-1-5.png"
 import plan_img_6 from "../../../../public/assets/img/plan/plan-1-6.png"
 
-import img from "../../../../public/assets/img/cta/cta-title-icon-2.png";
+import img from "../../../../public/assets/img/cta/logo-svs.png";
 
 const plan_content = {
     img_box : [
@@ -20,8 +20,8 @@ const plan_content = {
         {id:6, img: plan_img_6, cls: "6 d-none d-sm-block",},
     ],
 
-    sub_title: "INVOICES",
-    title: <>Simple <span>Tools</span>, Powerful Effects</>, 
+    sub_title: "Vision & Mission",
+    title: <>Our Guiding Principles <span>&</span> Goals</>, 
 
 }
 const {img_box, sub_title, title}  = plan_content
@@ -29,26 +29,39 @@ const {img_box, sub_title, title}  = plan_content
 const accordion_data = [
     {
         id: 1,
-        question: "Dashboard",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
+        question: "Vision",
+        answer: <>Our vision is to be a global leader in IT solutions, delivering innovative and reliable technology that empowers businesses to achieve their full potential and drives positive change in the digital landscape.</> ,
         accordion_id: "headingOne",
         collapsed: "collapsed",
         data_bs_target: "#collapseOne",
         aria_expanded: true,
         aria_controls: "collapseOne",
-        show: "",
+        show: "show",
         actice: "",
       },
     {
         id: 2,
-        question: "Task Management",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
+        question: "Mission",
+        answer: <>Our mission is to provide cutting-edge IT solutions that meet the evolving needs of our clients. We are committed to delivering exceptional service, fostering innovation, and promoting sustainable practices to enhance the efficiency and success of businesses worldwide.</> ,
         accordion_id: "headingTwo",
         collapsed: "",
         data_bs_target: "#collapseTwo",
         aria_expanded: false,
         aria_controls: "collapseTwo",
-        show: "show",
+        show: "",
+        actice: "",
+    
+      },
+      {
+        id: 3,
+        question: "Products and Services",
+        answer: <>All-in-One Solution Tailored to Your Needs <br/>We offer comprehensive products and services that cover all aspects of IT operations, ensuring you have everything you need for smooth and efficient functioning.</> ,
+        accordion_id: "headingThree",
+        collapsed: "collapsed",
+        data_bs_target: "#collapseThree",
+        aria_expanded: false,
+        aria_controls: "collapseThree",
+        show: "",
         actice: "",
     
       },

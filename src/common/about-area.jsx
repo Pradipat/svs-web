@@ -41,7 +41,7 @@ const about_data =[
 // about content
 const about_content = {
     title: "OVER 150K+ CLIENT",
-    sub_title: "We Offer Real Time Data Solutions", 
+    sub_title: "Vision & Mission", 
     des: <>Excepteur sint occaecat cupidatat officia non proident <br />
     sunt in culpa qui deserunt.!</>,
 
@@ -83,12 +83,12 @@ const AboutArea = () => {
                                 {about_list.map((item , i)  =>  <li key={i}><i className="fal fa-check"></i>{item}</li>)}
                               </ul>
                            </div>
-                           <div className="tp-about__btn">
+                           {/* <div className="tp-about__btn">
                               <Link className="tp-btn tp-btn-hover alt-color-black" href="/about">
                                  <span>{btn_text}</span>
                                  <b></b>
                               </Link>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>

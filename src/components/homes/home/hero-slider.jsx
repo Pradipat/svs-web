@@ -9,7 +9,7 @@ import hero_frame from "../../../../public/assets/img/hero/hero-frame.png";
 import shape_1 from "../../../../public/assets/img/hero/hero-line-shape.png";
 import shape_2 from "../../../../public/assets/img/hero/hero-line-shape-2.png";
 import shape_img_1 from "../../../../public/assets/img/hero/hero-shape-2.png";
-import shape_img_2 from "../../../../public/assets/img/hero/sharp_img.png";
+import shape_img_2 from "../../../../public/assets/img/hero/Eagle.png";
 import hero_thumb_1 from "../../../../public/assets/img/hero/hero-brand-1.png";
 import thumb_1 from "../../../../public/assets/img/hero/hero-brand.png";
 import thumb_2 from "../../../../public/assets/img/hero/hero-brand-3.png";

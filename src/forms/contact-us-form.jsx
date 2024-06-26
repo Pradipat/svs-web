@@ -25,7 +25,7 @@ const ContactUsForm = () => {
               <span className="floating-label">Phone Number</span>
             </div>
           </div>
-          <div className="col-12">
+          {/* <div className="col-12">
             <div className="postbox__select mb-30">
               <NiceSelect
                 options={[
@@ -40,7 +40,7 @@ const ContactUsForm = () => {
                 onChange={selectHandler}
               />
             </div>
-          </div>
+          </div> */}
           <div className="col-xxl-12">
             <div className="postbox__comment-input mb-30">
               <textarea className="textareaText" required></textarea>

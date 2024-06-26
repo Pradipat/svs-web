@@ -11,16 +11,24 @@ import CompanyArea from "./company-area";
 import JobArea from "./job-area";
 import JourneyArea from "./journey-area";
 import Footer from "@/layout/footers/footer";
- 
+import SalesArea from "@/common/sales-area";
+import PlanArea from "../homes/home-5/plan-area";
+import PaymentMethodArea from "../homes/home-2/payment-method-area";
+
+
+
 const About = () => {
   return (
     <>
       <HeaderSix />
       <Breadcrumb title_top="About"  title_bottom="SVS" />
       <HeroBanner title="About" subtitle="SVS" bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg" />
-      <Brand />
+      {/* <Brand /> */}
       <CompanyArea />
-      <AboutArea />
+      <PlanArea />
+      <PaymentMethodArea/>
+      {/* <AboutArea /> */}
+      {/* <SalesArea /> */}
       {/* <TeamArea bg_style={true} /> */}
       {/* <JourneyArea /> */}
       {/* <JobArea /> */}
