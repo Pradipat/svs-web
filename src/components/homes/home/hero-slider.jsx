@@ -8,14 +8,15 @@ import Image from "next/image";
 import hero_frame from "../../../../public/assets/img/hero/hero-frame.png";
 import shape_1 from "../../../../public/assets/img/hero/hero-line-shape.png";
 import shape_2 from "../../../../public/assets/img/hero/hero-line-shape-2.png";
-import shape_img_1 from "../../../../public/assets/img/hero/hero-shape-1.png";
-import shape_img_2 from "../../../../public/assets/img/hero/hero-shape-2.png";
-import hero_thumb_1 from "../../../../public/assets/img/hero/hero-sm-1.jpg";
-import thumb_1 from "../../../../public/assets/img/hero/hero-sm-3.png";
-import thumb_2 from "../../../../public/assets/img/hero/hero-sm-4.jpg";
-import hero_thumb_2 from "../../../../public/assets/img/hero/hero-sm-2.jpg";
+import shape_img_1 from "../../../../public/assets/img/hero/hero-shape-2.png";
+import shape_img_2 from "../../../../public/assets/img/hero/sharp_img.png";
+import hero_thumb_1 from "../../../../public/assets/img/hero/hero-brand-1.png";
+import thumb_1 from "../../../../public/assets/img/hero/hero-brand.png";
+import thumb_2 from "../../../../public/assets/img/hero/hero-brand-3.png";
+import hero_thumb_2 from "../../../../public/assets/img/hero/hero-brand-2.png";
 import HeroForm from "@/forms/hero-form";
 import LineShape from "@/svg/line-shape";
+
 
 // hero content data
 const hero_content = {
@@ -33,7 +34,7 @@ const hero_content = {
 	],
 	hero_title: (
 		<>
-			<span className="tp_title">
+			<span className="tp_title text-white">
 				<span className="child">SIAM VAYUPAK SOFTWARE</span>
 			</span>{" "}
 			<br />
@@ -42,7 +43,7 @@ const hero_content = {
 			</span>{" "} */}
 		</>
 	),
-	sub_title: <>Learn and Develop youself to become a world class developer</>,
+	sub_title: <><span class= "text-white">Learn and Develop youself to become a world class developer</span></>,
 	hero_shape_img: [
 		{
 			id: 1,
@@ -154,7 +155,7 @@ const HeroSlider = () => {
 									{hero_shape_img.map((item, i) => (
 										<div
 											key={i}
-											className={`tp-hero__shape-img-${item.cls} d-none d-xl-block`}
+											className={`tp-hero__shape-img-${item.cls} d-none d-xl-block z-index`}
 										>
 											<Image src={item.img} alt="theme-pure" />
 										</div>

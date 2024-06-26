@@ -32,7 +32,7 @@ const portfolio_data = [
         des: <>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</>,
         delay: ".5s",
         category: "Design Work",
-        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design" ],
+        filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design","Mobile Application" ],
     }, 
     {
         id: 2,

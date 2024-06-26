@@ -31,12 +31,13 @@ const footer_content  = {
             title: "What We Do",
             delay: ".7s",
             links: [
-                {name: "Business", link: "#"},
-                {name: "Technology", link: "#"},
+                {name: "Consulting", link: "/service"},
+                {name: "Solution Design", link: "/service"},
                //  {name: "Online Marketing", link: "#"},
                //  {name: "Advertising Strategy", link: "#"},
                //  {name: "Strategy", link: "#"},
-                {name: "Development", link: "#"},
+                {name: "Software Development", link: "/service"},
+                {name: "Customer Care", link: "/service"},
             ]
         },
         {
@@ -46,11 +47,13 @@ const footer_content  = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "About", link: "/about"},
-                {name: "Services", link: "/service"},
-               //  {name: "How It Works", link: "#"},
+               {name: "Services", link: "/service"},
+                
+                
+                {name: "Project", link: "/project"},
                //  {name: "Pricing Plan", link: "/price"},
-                {name: "Blog", link: "/blog"},
+               //  {name: "Blog", link: "/blog"},
+                {name: "About", link: "/about"},
                 {name: "Contact", link: "/contact"},
             ]
         },

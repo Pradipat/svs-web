@@ -90,7 +90,7 @@ const ProjectArea = () => {
                                              </h4>
                                              <p>{item.description}</p>
                                           </div>
-                                          <div className="tp-project__meta d-flex align-items-center">
+                                          {/* <div className="tp-project__meta d-flex align-items-center">
                                              <div className="tp-project__author-info">
                                                 <span>Client Name</span>
                                                 <h4>{item.client_name}</h4>
@@ -104,7 +104,7 @@ const ProjectArea = () => {
                                                    <RightArrow />
                                                 </Link>
                                              </div>
-                                          </div>
+                                          </div> */}
                                        </div>
                                     </div>
                                  </div>

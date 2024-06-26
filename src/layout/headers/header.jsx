@@ -9,7 +9,7 @@ import React, {useState, useRef, useEffect, useLayoutEffect} from 'react';
 import NavMenu from './nav-menu';
 import Image from 'next/image';
 
-import logo from "../../../public/assets/img/logo/logo-svs.png"
+import logo from "../../../public/assets/img/logo/logosvs-shadow.png"
 
 const Header = () => {
 
@@ -45,12 +45,12 @@ const Header = () => {
                         <div className="col-6">
                            <div className="header-top__link">
                               <span>Because we believe in the power of technology to improve lives. </span>
-                              <Link href="#">
+                              {/* <Link href="#">
                                  <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.40918 9L5.591 5L1.40918 1" stroke="white" strokeWidth="1.5"
                                        strokeLinecap="round" strokeLinejoin="round"/>
                                  </svg>
-                              </Link>
+                              </Link> */}
                            </div>
                         </div>
                         <div className="col-6">
@@ -71,15 +71,15 @@ const Header = () => {
                               <Link href="/"><Image  src={logo} alt="theme-pure" /></Link>
                            </div>
                         </div>
-                        <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block text-center">
+                        <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block text-center" >
                            <div className="header-bottom__main-menu">
                               <nav id="mobile-menu">
                               <NavMenu /> 
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
-                           <div className="header-bottom__right d-flex align-items-center justify-content-end">
+                        <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6 ">
+                           <div className="header-bottom__right d-flex align-items-center justify-content-end   ">
                               {/* <div className="header-bottom__action">
                                  <a className="d-none d-md-inline-block search-open-btn"
                                     onClick={() => setSearchOpen(true)} > 
@@ -91,7 +91,7 @@ const Header = () => {
                                  </Link>
                               </div> */}
                               <div className="header-bottom__btn d-flex align-items-center">
-                                 <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/service-details">
+                                 <Link className="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="/contact">
                                     <span className="white-text">Get A Demo</span>
                                     <b></b>
                                  </Link>

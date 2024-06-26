@@ -5,13 +5,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useRef } from 'react';
 
-import img from "../../../../public/assets/img/service/sv-dashbord.png" 
+import img from "../../../../public/assets/img/service/svs-dashbord.png" 
 
 const service_content = {
     title: "What sets Siamvayuapak apart",
     sub_title: <>Innovative Solutions, Unmatched Excellence</>,
 
-    bg_img: "/assets/img/service/sv-bg.jpg",
+    bg_img: "/assets/img/service/bg-ser.jpg",
     title_2: <>Data Analysis <br /> Tools & Methods</>,
     des: <>To meet the needs of all our customers.</>,
     btn_text: "Work with Us",
@@ -64,8 +64,8 @@ const ServicesArea = () => {
                         style={{backgroundImage: `url(${bg_img})`}} >
                            <div className="tp-service__top-content">
                               <h3 className="tp-service__title-white">{title_2}</h3>
-                              <p>{des}</p>
-                              <Link className="tp-btn-orange tp-btn-hover alt-color-white" href="/project-details">
+                              <p class="text-white">{des}</p>
+                              <Link className="tp-btn-orange tp-btn-hover alt-color-white" href="/contact">
                                  <span>{btn_text}</span>
                                  <b></b>
                               </Link>

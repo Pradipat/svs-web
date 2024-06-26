@@ -13,6 +13,11 @@ import TestimonialArea from "./testimonial-area";
 import Footer from "@/layout/footers/footer";
 import PlatformArea from "@/common/platform-area";
 import BlogArea from "./blog-area";
+import HeaderSix from "@/layout/headers/header-6";
+import HeaderTwo from "@/layout/headers/header-2";
+import HeaderThree from "@/layout/headers/header-3";
+import HeaderFour from "@/layout/headers/header-4";
+import HeaderFive from "@/layout/headers/header-5";
 
 
 const HomeOne = () => {

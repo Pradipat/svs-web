@@ -3,25 +3,25 @@ import Link from "next/link";
 
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/siamvayupak",
     target: "_blank",
     icon: "fab fa-facebook-f", 
   },
-  {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
-  },
-  {
-    link: "https://www.linkedin.com",
-    target: "_blank",
-    icon: "fab fa-linkedin-in", 
-  }, 
-  {
-    link: "https://www.vimeo.com",
-    target: "_blank",
-    icon: "fab fa-vimeo-v", 
-  },
+  // {
+  //   link: "http://twitter.com",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter", 
+  // },
+  // {
+  //   link: "https://www.linkedin.com",
+  //   target: "_blank",
+  //   icon: "fab fa-linkedin-in", 
+  // }, 
+  // {
+  //   link: "https://www.vimeo.com",
+  //   target: "_blank",
+  //   icon: "fab fa-vimeo-v", 
+  // },
 ];
 
 const SocialLinks = () => {
