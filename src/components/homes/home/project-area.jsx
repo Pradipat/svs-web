@@ -53,7 +53,9 @@ const ProjectArea = () => {
                   <div className="col-xl-6">
                      <div className="tp-project__section-box wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                         <h3 className="tp-section-title">Check Some Of Our Recent Work.</h3>
+                        
                      </div>
+                     
                   </div>
                </div>
             </div>
@@ -86,7 +88,7 @@ const ProjectArea = () => {
                                           </div>
                                           <div className="tp-project__title-box">
                                              <h4 className="tp-project__title-sm">
-                                                <Link href="/project-details">{item.title}</Link>
+                                                <Link href="/project">{item.title}</Link>
                                              </h4>
                                              <p>{item.description}</p>
                                           </div>
