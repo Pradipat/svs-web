@@ -1,14 +1,14 @@
 
 
 // thumb img import here 
-import thumb_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
-import thumb_img_2 from "../../public/assets/img/project/project-inner-2.jpg";
-import thumb_img_3 from "../../public/assets/img/project/project-inner-3.jpg";
-import thumb_img_4 from "../../public/assets/img/project/project-inner-5.jpg";
-import thumb_img_5 from "../../public/assets/img/project/project-inner-4.jpg";
-import thumb_img_6 from "../../public/assets/img/project/project-inner-6.jpg";
-import thumb_img_7 from "../../public/assets/img/project/project-inner-7.jpg";
-import thumb_img_8 from "../../public/assets/img/project/project-inner-8.jpg";
+import thumb_img_1 from "../../public/assets/img/project/AEEMS.png";
+import thumb_img_2 from "../../public/assets/img/project/lnwcoin.png";
+import thumb_img_3 from "../../public/assets/img/project/work.png";
+import thumb_img_4 from "../../public/assets/img/project/football.png";
+import thumb_img_5 from "../../public/assets/img/project/fire.png";
+import thumb_img_6 from "../../public/assets/img/project/ICDL.png";
+import thumb_img_7 from "../../public/assets/img/project/blockchain.png";
+import thumb_img_8 from "../../public/assets/img/project/web.png";
 import thumb_img_9 from "../../public/assets/img/project/project-inner-9.jpg";
 // brand logo import here
 import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";

@@ -83,9 +83,9 @@ const ProjectArea = () => {
                                           <Image src={item.img_1} alt="theme-pure" />
                                        </div>
                                        <div className="tp-project__content">
-                                          <div className="tp-project__brand-icon">
+                                          {/* <div className="tp-project__brand-icon">
                                              <Image src={item.img_2} alt="theme-pure" />
-                                          </div>
+                                          </div> */}
                                           <div className="tp-project__title-box">
                                              <h4 className="tp-project__title-sm">
                                                 <Link href="/project">{item.title}</Link>

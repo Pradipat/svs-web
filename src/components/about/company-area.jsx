@@ -36,15 +36,15 @@ const CompanyArea = () => {
                      </div>
                   </div>
                   <div className="row align-items-center">
-                     <div className="col-xl-4">
+                     {/* <div className="col-xl-4">
                         <div className="ab-company-video">
                            <a className="popup-video" 
                            onClick={() => setIsVideoOpen(true)} 
                            ><i className="fas fa-play"></i></a>
                            <span>Watch Demo</span>
                         </div>
-                     </div>
-                     <div className="col-xl-8">
+                     </div> */}
+                     <div className="col-xl-12">
                         <div className="row">
 
                            <div className="col-md-4 col-sm-4 mb-40">
@@ -61,7 +61,7 @@ const CompanyArea = () => {
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
                                     <span>VALUE</span>
-                                    <h4>46<em>m</em></h4>
+                                    <h4>50<em>m+</em></h4>
                                     <p>Revenue per Year</p>
                                  </div>
                               </div>
@@ -70,8 +70,8 @@ const CompanyArea = () => {
                               <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
                                  <div className="ab-company-fun-fact">
                                     <span>IN</span>
-                                    <h4>150<em>+</em></h4>
-                                    <p>Countries using</p>
+                                    <h4>50<em>+</em></h4>
+                                    <p>Project</p>
                                  </div>
                               </div>
                            </div>

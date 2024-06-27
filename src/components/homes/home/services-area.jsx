@@ -47,7 +47,7 @@ const ServicesArea = () => {
                                     <Image src={item.img} alt="theme-pure" />
                                 </div>
                                 <div className="tp-service__content">
-                                    <h3 className="tp-service__title-sm tp-yellow-color"><Link href="/service-details">{item.title}</Link></h3>
+                                    <h3 className="tp-service__title-sm tp-yellow-color">{item.title}</h3>
                                     <p>{item.description}</p>
                                 </div>
                                 {/* <div className="tp-service__link">

@@ -3,22 +3,22 @@ import Image from 'next/image';
 
 // payment img import 
 import logo from "../../../../public/assets/img/payment-logo/icon.png";
-import payment_img_1 from "../../../../public/assets/img/payment-logo/logo-3.png";
-import payment_img_2 from "../../../../public/assets/img/payment-logo/logo-1.png";
-import payment_img_3 from "../../../../public/assets/img/payment-logo/logo-2.png";
-import payment_img_4 from "../../../../public/assets/img/payment-logo/logo-4.png";
-import payment_img_5 from "../../../../public/assets/img/payment-logo/logo-5.png";
-import payment_img_6 from "../../../../public/assets/img/payment-logo/logo-6.png";
-import payment_img_7 from "../../../../public/assets/img/payment-logo/logo-7.png";
-import payment_img_8 from "../../../../public/assets/img/payment-logo/logo-16.png";
-import payment_img_9 from "../../../../public/assets/img/payment-logo/logo-15.png";
-import payment_img_10 from "../../../../public/assets/img/payment-logo/logo-14.png";
-import payment_img_11 from "../../../../public/assets/img/payment-logo/logo-13.png";
-import payment_img_12 from "../../../../public/assets/img/payment-logo/logo-12.png";
-import payment_img_13 from "../../../../public/assets/img/payment-logo/logo-11.png";
-import payment_img_14 from "../../../../public/assets/img/payment-logo/logo-10.png";
-import payment_img_15 from "../../../../public/assets/img/payment-logo/logo-9.png";
-import payment_img_16 from "../../../../public/assets/img/payment-logo/logo-8.png";
+import payment_img_1 from "../../../../public/assets/img/payment-logo/3.png";
+import payment_img_2 from "../../../../public/assets/img/payment-logo/1.png";
+import payment_img_3 from "../../../../public/assets/img/payment-logo/2.png";
+import payment_img_4 from "../../../../public/assets/img/payment-logo/4.png";
+import payment_img_5 from "../../../../public/assets/img/payment-logo/5.png";
+import payment_img_6 from "../../../../public/assets/img/payment-logo/6.png";
+import payment_img_7 from "../../../../public/assets/img/payment-logo/7.png";
+import payment_img_8 from "../../../../public/assets/img/payment-logo/6.png";
+import payment_img_9 from "../../../../public/assets/img/payment-logo/5.png";
+import payment_img_10 from "../../../../public/assets/img/payment-logo/4.png";
+import payment_img_11 from "../../../../public/assets/img/payment-logo/3.png";
+import payment_img_12 from "../../../../public/assets/img/payment-logo/2.png";
+import payment_img_13 from "../../../../public/assets/img/payment-logo/1.png";
+import payment_img_14 from "../../../../public/assets/img/payment-logo/0.png";
+import payment_img_15 from "../../../../public/assets/img/payment-logo/9.png";
+import payment_img_16 from "../../../../public/assets/img/payment-logo/8.png";
 
 
 // payment_method data
