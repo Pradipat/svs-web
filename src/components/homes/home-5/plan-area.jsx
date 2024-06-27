@@ -36,7 +36,7 @@ const accordion_data = [
         data_bs_target: "#collapseOne",
         aria_expanded: true,
         aria_controls: "collapseOne",
-        show: "show",
+        show: "",
         actice: "",
       },
     {
@@ -48,7 +48,7 @@ const accordion_data = [
         data_bs_target: "#collapseTwo",
         aria_expanded: false,
         aria_controls: "collapseTwo",
-        show: "",
+        show: "show",
         actice: "",
     
       },
