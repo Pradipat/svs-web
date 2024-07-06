@@ -43,7 +43,7 @@ const hero_content = {
 			</span>{" "} */}
 		</>
 	),
-	sub_title: <><span class= "text-white">Learn and Develop youself to become a world class developer</span></>,
+	sub_title: <><span className= "text-white">Learn and Develop youself to become a world class developer</span></>,
 	hero_shape_img: [
 		{
 			id: 1,
