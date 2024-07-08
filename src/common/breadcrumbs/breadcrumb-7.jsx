@@ -17,12 +17,12 @@ const BreadcrumbSeven = () => {
                <div className="breadcrumb__shape-2 z-index-4">
                   <Image src={shape_1} alt="theme-pure" />
                </div>
-               <div className="breadcrumb__shape-3 z-index-4">
+               {/* <div className="breadcrumb__shape-3 z-index-4">
                   <Image src={shape_2} alt="theme-pure" />
                </div>
                <div className="breadcrumb__shape-4 z-index-4">
                   <Image src={shape_3} alt="theme-pure" />
-               </div>
+               </div> */}
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col-xl-10">

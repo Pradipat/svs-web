@@ -26,7 +26,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <div className="mobile-menu mean-container">
                         <MobileMenus />
                     </div>
-                    <div className="tpoffcanvas__instagram text-center">
+                    {/* <div className="tpoffcanvas__instagram text-center">
                     <div className="tpoffcanvas__instagram-title">
                         <h4>instagram</h4>
                     </div>  
@@ -34,7 +34,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <Link href="#"><Image src={canvus_img_2}  alt="theme-pure" /></Link>
                     <Link href="#"><Image src={canvus_img_3}  alt="theme-pure" /></Link>
                     <Link href="#"><Image src={canvus_img_4}  alt="theme-pure" /></Link>
-                    </div>
+                    </div> */}
                     <div className="tpoffcanvas__info text-center">
                     <h4 className="offcanva-title">we are here</h4>
                     <Link href="https://maps.app.goo.gl/Xp2no6d3Lxxk2Trh8" target="_blank">
