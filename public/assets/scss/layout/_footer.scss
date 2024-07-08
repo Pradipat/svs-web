@@ -114,21 +114,22 @@
     }
     &__social{
         & a{
+            background-color: white;
             height: 40px;
             width: 40px;
             line-height: 36px;
             border-radius: 50%;
             font-size: 14px;
             text-align: center;
-            color: var(--tp-grey-2);
+            color: blue;
             border: 1.5px solid rgba(255, 255, 255, 0.15);
             display: inline-block;
             margin-right: 10px;
             transform: scale(1);
             transition: .3s;
             &:hover{
-                background-color: var(--tp-theme-1);
-                border-color: var(--tp-theme-1);
+                background-color: blue;
+                border-color: blue;
                 color: var(--tp-common-white);
                 transform: scale(1.1);
             }
@@ -909,7 +910,7 @@
     margin:0 auto;
     height: 100%;
     text-align: center;
-    background-color: var(--tp-common-black);
+    background-color: #800000;
     z-index: -1;
 }
 .tp-footer{

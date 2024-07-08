@@ -37,17 +37,20 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     </div>
                     <div className="tpoffcanvas__info text-center">
                     <h4 className="offcanva-title">we are here</h4>
-                    <Link href="https://www.google.com/maps/@23.506657,90.3443647,7z" target="_blank">
-                        27 Division St, New York, <br />
-                        NY 10002, USA
+                    <Link href="https://maps.app.goo.gl/Xp2no6d3Lxxk2Trh8" target="_blank">
+                        Siamvayupak Software <br />
+                        99/28 Moo 4 Software Park Building fl.7 room 7A,7J <br/>
+                        Chaengwattana Rd.,Klongklue,<br/>
+                        Pakkred,Nonthaburi 11120 <br/>
+                        Tel.02-591-5565 TAX ID : 0-1255-66041-28-0
                     </Link>
                     </div>
                     <div className="tpoffcanvas__social">
                     <div className="social-icon text-center">
-                        <Link href="#"><i className="fab fa-twitter"></i></Link>
-                        <Link href="#"><i className="fab fa-instagram"></i></Link>
-                        <Link href="#"><i className="fab fa-facebook-square"></i></Link>
-                        <Link href="#"><i className="fab fa-dribbble"></i></Link>
+                        {/* <Link href="#"><i className="fab fa-twitter"></i></Link>
+                        <Link href="#"><i className="fab fa-instagram"></i></Link> */}
+                        <Link href="https://www.facebook.com/siamvayupak"><i className="fab fa-facebook-square"></i></Link>
+                        {/* <Link href="#"><i className="fab fa-dribbble"></i></Link> */}
                     </div>
                     </div>
                 </div>

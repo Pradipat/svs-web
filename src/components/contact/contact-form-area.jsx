@@ -31,7 +31,7 @@ const ContactFormArea = () => {
                            </div>
                            <div className="contact-form-social-box p-relative">
                               <div className="contact-form-social-item">
-                                 <Link href="#"><i className="fab fa-facebook-f"></i></Link>
+                                 {/* <Link href="#"><i className="fab fa-facebook-f"></i></Link> */}
                                  {/* <Link href="#"><i className="fab fa-twitter"></i></Link>
                                  <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
                                  <Link href="#"><i className="fab fa-instagram"></i></Link> */}

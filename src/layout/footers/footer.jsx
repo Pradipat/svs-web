@@ -177,7 +177,7 @@ const Footer = () => {
                                           <span>
                                             <LocationIcon /> 
                                           </span>
-                                          <Link href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"
+                                          <Link href="https://maps.app.goo.gl/Xp2no6d3Lxxk2Trh8"
                                              target="_blank">{location}</Link>
                                        </li>
                                     </ul>

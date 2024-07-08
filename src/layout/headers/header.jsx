@@ -66,20 +66,20 @@ const Header = () => {
                className={`header-bottom__area header-mob-space header-bottom__area-2 header-bottom__transparent z-index-5 ${sticky && "header-sticky"}`}>
                   <div className="container">
                      <div className="row align-items-center">
-                        <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
+                        <div className="col-xxl-2 col-xl-3 col-lg-2 col-md-4 col-6 w-5">
                            <div className="header-bottom__logo">
                               <Link href="/"><Image  src={logo} alt="theme-pure" /></Link>
                            </div>
                         </div>
-                        <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block text-center" >
+                        <div className="col-xxl-6 col-xl-5 col-lg-7 d-none d-lg-block text-center w-90" >
                            <div className="header-bottom__main-menu">
                               <nav id="mobile-menu">
                               <NavMenu /> 
                               </nav>
                            </div>
                         </div>
-                        <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6 ">
-                           <div className="header-bottom__right d-flex align-items-center justify-content-end   ">
+                        <div className="col-xxl-4 col-xl-3 col-lg-3 col-md-8 col-6 d-flex justify-content-end">
+                           <div className="header-bottom__right align-items-center ">
                               {/* <div className="header-bottom__action">
                                  <a className="d-none d-md-inline-block search-open-btn"
                                     onClick={() => setSearchOpen(true)} > 

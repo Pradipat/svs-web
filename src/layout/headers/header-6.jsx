@@ -29,7 +29,7 @@ const HeaderSix = ({ style_2 = false }) => {
                               <Image src={logo_white} alt="theme-pure" />
                            </Link>
                               <Link className="black-logo" href="/">
-                                 <Image src={logo_black} alt="" />
+                                 <Image src={logo_white} alt="" />
                               </Link></>
                            }
                         </div>
