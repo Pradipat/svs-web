@@ -19,7 +19,7 @@ const footer_content  = {
     description: <>Learn and Develop youself to become  <br /> a world class developer</>,
     phone: "+66 2 591 5565",
     contact_mail: "info@siamvayupak.com",
-    location: "SOFTWARE PARK THAILAND",
+    location: "Location",
 
     copy_right: <>Copyright © {new Date().getFullYear()} <Link href="#">SIAM VAYUPAK SOFTWARE</Link> </>,
 

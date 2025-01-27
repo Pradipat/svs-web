@@ -28,7 +28,7 @@ const inner_content = {
     {
       id: 3,
       icon: icon_3,
-      title: "Software Park Thailand",
+      title: "Location",
       link: "https://maps.app.goo.gl/gf2L8gAxG7DVzo1W6",
     },
   ],
